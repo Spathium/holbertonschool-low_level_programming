@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _isgidit - Checks for a digit
+ * _isdigit - unction that checks for a digit (0 through 9)
  *@c: is a variable
  * Return: 0
  */
