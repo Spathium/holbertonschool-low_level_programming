@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- *_pow_recursion - return the vale of variable x
+ * _pow_recursion - It returns the value of x raised to the power y.
  * @x: variable
  * @y: variable
  * Return 0
 */
 
 int _pow_recursion(int x, int y)
+
 {
 	if (y == 0)
 		return (1);
