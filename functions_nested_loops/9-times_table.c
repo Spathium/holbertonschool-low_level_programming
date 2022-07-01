@@ -5,37 +5,26 @@
  * Description: prints 9 times table starting with 0
  * Return: Nothing.
  */
+
 void times_table(void)
 {
-	int i, m, n;
+	int i;
+	int j;
+	int m;
 
-	for (i = 0; i <= 9; i++)
+	for (j = 0; j <= 9; j++)
 	{
-		for (m = 0; m <= 9; m++)
+		for (i = 0; i <= 9; i++)
 		{
-			n = i * m;
+			_putchar((i * j) + '0');
 
-			if ((n / 10) == 0)
-			{
-				if (m != 0)
-					_putchar(' ');
-				_putchar(n + '0');
-
-				if (m == 9)
-					continue;
-				_putchar(',');
-				_putchar(' ');
-			}
-			else
-			{
-				_putchar((n / 10) + '0');
-				_putchar((n % 10) + '0');
-				if (m == 9)
-					continue;
-				_putchar(',');
-				_putchar(' ');
-			}
+			if ((m / 10) == 0)
+		{
+			_putchar(',');
+			_putchar(' ');
 		}
+		}
+
 		_putchar('\n');
 	}
 }
