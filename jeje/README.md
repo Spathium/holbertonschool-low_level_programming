@@ -1,8 +1,9 @@
 # THE PRINTF PROJECT IN THE C PROGRAMMING LANGUAGE
 
 
-**Resources**
-Read or watch:
+## Resources
+
+### Read or watch:
 * [Secrets of printf](https://www.cypress.com/file/54761/download)
 * [Print function in C](https://youtu.be/53UzOVLWXsc)
 
