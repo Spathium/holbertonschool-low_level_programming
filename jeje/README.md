@@ -13,10 +13,10 @@ This project is about recreating the C library function printf. The function pri
 
 In this project we made the tasks 0 - 2 of mandatory part.
 
-##Environment
+Environment
 Our printf has been tested on Ubuntu 20.04.
 
-##Usage
+Usage
 **Compile:** gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 
 
