@@ -2,7 +2,8 @@
 #define LISTS_H
 #include <stdio.h>
 #include <stdarg.h>
-
+#include <string.h>
+#include <stdlib.h>
 int _putchar(char c);
 char *_strdup(const char *str);
 int _strlen(const char *s);
